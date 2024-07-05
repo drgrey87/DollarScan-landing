@@ -14,18 +14,125 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #162138;
+  min-height: 13vh;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  column-gap: 50px;
+}
+
+.App-header--logo {
+  transform: scale(1.3);
+}
+
+.App-header--title {
+  font-family: MontserratSemiBold;
+  font-size: 34px;
+  margin: 0;
+}
+
+.App-main {
+  padding: 25px 0;
+  display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: linear-gradient(200deg, #1C6259 7%, #1C6E58 14%, #1C6259 2%, #1C6259 28%, #247A63 35%, #1C6259 48%, #162138 72%);
 }
 
-.App-link {
-  color: #61dafb;
+.App-main--image {
+  width: 300px;
+  height: 310px;
+}
+
+.App-main--title {
+  font-family: RobotoCondensedRegular;
+  font-size: 30px;
+  margin-top: 25px;
+  color: white
+}
+
+.App-main--features-title {
+  font-family: MontserratSemiBold;
+  font-size: 28px;
+  margin-top: 25px;
+  color: #162138;
+}
+
+.App-main--feature-icon {
+ 
+}
+
+.App-main--features-wrapper {
+  padding: 0 30px;
+}
+
+.App-main--features {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.App-main--feature {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.App-main--feature-description {
+  font-family: MontserratRegular;
+  font-size: 18px;
+  color: #162138;
+  text-align: start;
+}
+
+.App-main--button-links {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.App-main--button-link {
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+  align-items: center;
+  background-color: #BDFF31;
+  width: 155px;
+  height: 48px;
+  padding: 0 22px;
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.App-main--button-link-text {
+  color: #162138;
+  font-family: MontserratRegular;
+  font-size: 18px;
+}
+
+.App-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-footer--contacts {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  color: #162138;
+  /* text-decoration: none; */
 }
 
 @keyframes App-logo-spin {
