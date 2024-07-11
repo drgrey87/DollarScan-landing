@@ -16,11 +16,11 @@ function App() {
         <img className="App-main--image" src={Banknote} alt='' />
         <p className="App-main--title">Quick and accurate identification of U.S. banknotes <br/>using your phone’s camera</p>
         <section className="App-main--button-links">
-          <a href="https://apps.apple.com/us/app/payingback-cash-me-back/id1604011897" target="_blank" className="App-main--button-link">
+          <a href="https://apps.apple.com/app/6502190178" target="_blank" className="App-main--button-link">
             <AppleIcon/>
             <p className="App-main--button-link-text">iPhone</p>
           </a>
-          <a href="https://play.google.com/store/apps/details?id=com.payingback" target="_blank" className="App-main--button-link">
+          <a href="https://play.google.com/store/apps/details?id=com.reevalApp" target="_blank" className="App-main--button-link">
             <GoogleIcon/>
             <p className="App-main--button-link-text">Android</p>
           </a>
