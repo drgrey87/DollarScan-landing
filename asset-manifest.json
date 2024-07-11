@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DollarScan-landing/static/css/main.965be20c.css",
-    "main.js": "/DollarScan-landing/static/js/main.2e41ef6c.js",
+    "main.js": "/DollarScan-landing/static/js/main.e973a904.js",
     "static/js/453.4b42bd1d.chunk.js": "/DollarScan-landing/static/js/453.4b42bd1d.chunk.js",
     "static/media/Banknote.png": "/DollarScan-landing/static/media/Banknote.eff6a576fad3b014efca.png",
     "static/media/Montserrat-Bold.ttf": "/DollarScan-landing/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
@@ -15,11 +15,11 @@
     "index.html": "/DollarScan-landing/index.html",
     "static/media/StarIcon.svg": "/DollarScan-landing/static/media/StarIcon.194630ba6afc98cfb0ec680d1d0733b4.svg",
     "main.965be20c.css.map": "/DollarScan-landing/static/css/main.965be20c.css.map",
-    "main.2e41ef6c.js.map": "/DollarScan-landing/static/js/main.2e41ef6c.js.map",
+    "main.e973a904.js.map": "/DollarScan-landing/static/js/main.e973a904.js.map",
     "453.4b42bd1d.chunk.js.map": "/DollarScan-landing/static/js/453.4b42bd1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.965be20c.css",
-    "static/js/main.2e41ef6c.js"
+    "static/js/main.e973a904.js"
   ]
 }
