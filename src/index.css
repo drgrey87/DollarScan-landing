@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: local('MontserratBold'), url('./common/fonts/Montserrat-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+  line-height: auto;
+}
+
+@font-face {
+  font-family: 'MontserratMedium';
+  src: local('MontserratMedium'), url('./common/fonts/Montserrat-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+  line-height: auto;
+}
+
+@font-face {
+  font-family: 'MontserratRegular';
+  src: local('MontserratRegular'), url('./common/fonts/Montserrat-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  line-height: auto;
+}
+
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: local('MontserratSemiBold'), url('./common/fonts/Montserrat-SemiBold.ttf');
+  font-weight: normal;
+  font-style: normal;
+  line-height: auto;
+}
+
+@font-face {
+  font-family: 'RobotoCondensedRegular';
+  src: local('RobotoCondensedRegular'), url('./common/fonts/RobotoCondensed-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  line-height: auto;
+}

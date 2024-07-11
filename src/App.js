@@ -31,23 +31,23 @@ function App() {
         <div className="App-main--features">
           <div className="App-main--feature">
             <StarIcon className="App-main--feature-icon"/>
-            <p className="App-main--feature-description">Fast banknote recognition</p>
+            <span className="App-main--feature-description">Fast banknote recognition</span>
           </div>
           <div className="App-main--feature">
             <StarIcon className="App-main--feature-icon"/>
-            <p className="App-main--feature-description">Offer users up-to-date reference price of banknote based on latest transactions and actual market offers</p>
+            <span className="App-main--feature-description">Offer users up-to-date reference price of banknote based on latest transactions and actual market offers</span>
           </div>
           <div className="App-main--feature">
             <StarIcon className="App-main--feature-icon"/>
-            <p className="App-main--feature-description">Scanning of banknote’s serial number</p>
+            <span className="App-main--feature-description">Scanning of banknote’s serial number</span>
           </div>
           <div className="App-main--feature">
             <StarIcon className="App-main--feature-icon"/>
-            <p className="App-main--feature-description">Ability to create multiple collections of saved banknotes</p>
+            <span className="App-main--feature-description">Ability to create multiple collections of saved banknotes</span>
           </div>
           <div className="App-main--feature">
             <StarIcon className="App-main--feature-icon"/>
-            <p className="App-main--feature-description">Easy-to-use interface</p>
+            <span className="App-main--feature-description">Easy-to-use interface</span>
           </div>
         </div>
     </section>

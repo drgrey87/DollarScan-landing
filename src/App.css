@@ -35,7 +35,7 @@
 }
 
 .App-main {
-  padding: 25px 0;
+  padding: 25px 30px;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -64,7 +64,7 @@
 }
 
 .App-main--feature-icon {
- 
+  overflow: unset;
 }
 
 .App-main--features-wrapper {
