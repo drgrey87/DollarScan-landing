@@ -2,13 +2,34 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './common/fonts/index';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Home from './containers/Home';
+import PrivacyPolicy from './containers/Privacy';
+import TermsOfUse from './containers/TermsOfUse';
+
+const router = createBrowserRouter([
+  {
+    path: "DollarScan-landing/",
+    element: <Home/>,
+  },
+  {
+    path: "DollarScan-landing/privacy-policy",
+    element: <PrivacyPolicy/>,
+  },
+  {
+    path: "DollarScan-landing/terms-of-use",
+    element: <TermsOfUse/>,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
